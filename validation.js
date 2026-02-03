@@ -1,5 +1,5 @@
 
-
+console.log('=================number==========================');
 //wrong typof number thakle dhore felar system
 function multiply (num1, num2){
   if(typeof num1 !== 'number' || typeof num2 !== 'number'){
@@ -11,7 +11,7 @@ const result = multiply(53, '5');
 console.log(result);
 
 
-console.log('===========================================');
+console.log('=================string==========================');
 //wrong typof string thakle dhore felar system
 function fullName(first, last){
   if(typeof first !== 'string'){
@@ -28,7 +28,7 @@ console.log(full);
 
 
 
-console.log('===========================================');
+console.log('===================object========================');
 //wrong typof object thakle dhore felar system
 function getProductPrice (product){
   if(typeof product !== 'object' || product === null){
@@ -53,7 +53,9 @@ console.log(productPrice);
 
 
 
-console.log('===========================================');
+
+console.log('==================array=========================');
+//wrong typof array thakle dhore felar system
 function getArray (numbers){
   if(Array.isArray(numbers) === false){
     return 'please provide a array';
